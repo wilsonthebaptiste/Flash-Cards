@@ -14,7 +14,7 @@ function divMaker(text){
     h2_question.innerHTML = text.my_question;
 
     h2_answer.setAttribute("style", "text-align: center; display:none; color: red");
-    h2_answer.innerHTML = text.myAnswer;
+    h2_answer.innerHTML = text.my_answer;
     div.appendChild(h2_question);
     div.appendChild(h2_answer);
     div.addEventListener("click", function(){
